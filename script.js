@@ -62,7 +62,7 @@ function el(element, props){
 }
 
 window.onload = function() {
-  var apiBase = 'https://en.wikipedia.org/w/api.php?';
+  var apiBase = 'https://fa.wikipedia.org/w/api.php?';
   var action = 'action=opensearch';
   var dataType = '&format=json';
   var searchValue = '&search=';
@@ -80,7 +80,7 @@ window.onload = function() {
     var randQ = document.getElementsByClassName('fa fa-question-circle')[0];
     
     randQ.addEventListener('click', function(){
-          window.open('http://en.wikipedia.org/wiki/Special:Random','_blank')
+          window.open('http://fa.wikipedia.org/wiki/Special:Random','_blank')
     })
     
     
